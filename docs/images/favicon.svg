@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feMerge>
+        <feMergeNode in="offsetBlur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Тёмный фон круга -->
+  <circle cx="50" cy="50" r="46" fill="#0f172a" stroke="url(#bg)" stroke-width="4" filter="url(#glow)"/>
+
+  <!-- Правильная пятиконечная звезда, поднятая ещё выше -->
+  <path d="M50 10 L54.7 23.5 L69 23.8 L57.6 32.5 L61.8 46.2 L50 38 L38.2 46.2 L42.4 32.5 L31 23.8 L45.3 23.5 Z" fill="url(#shine)" opacity="0.9"/>
+
+  <!-- Число 100 -->
+  <text x="50" y="72" font-family="Inter, sans-serif" font-size="36" font-weight="800" fill="#f8fafc" text-anchor="middle" filter="url(#glow)">100</text>
+</svg>
