@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-    background: #0a0e17;
+    background: #0d1117;
     color: #e2e8f0;
     line-height: 1.6;
     min-height: 100vh;
@@ -138,7 +138,7 @@ body {
     gap: 8px;
     background: rgba(59, 130, 246, 0.1);
     border: 1px solid rgba(59, 130, 246, 0.3);
-    color: #60a5fa;
+    color: #fbbf24;
     padding: 8px 16px;
     border-radius: 50px;
     font-size: 14px;
@@ -150,7 +150,7 @@ body {
 .offline-badge .dot {
     width: 8px;
     height: 8px;
-    background: #3b82f6;
+    background: #fbbf24;
     border-radius: 50%;
     animation: pulse 2s infinite;
 }
@@ -194,24 +194,6 @@ h1 .highlight {
     margin-top: 8px;
 }
 
-.btn-secondary {
-    background: rgba(255, 255, 255, 0.05);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    color: #f8fafc;
-    padding: 16px 32px;
-    border-radius: 16px;
-    text-decoration: none;
-    font-weight: 600;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background 0.2s, border-color 0.2s;
-}
-
-.btn-secondary:hover {
-    background: rgba(255, 255, 255, 0.1);
-    border-color: rgba(255, 255, 255, 0.2);
-}
-
 .stats {
     display: flex;
     gap: 40px;
@@ -239,7 +221,7 @@ h1 .highlight {
 }
 
 .benefits {
-    padding: 100px 0;
+    padding: 50px 0 30px 0;
     background: #0d1117;
 }
 
@@ -313,8 +295,8 @@ h2 {
 }
 
 .approach {
-    padding: 100px 0;
-    background: #0a0e17;
+    padding: 50px 0 30px 0;
+    background: #0d1117;
 }
 
 .approach .container {
@@ -390,7 +372,7 @@ h2 {
 }
 
 .testimonials {
-    padding: 100px 0;
+    padding: 50px 0 0 0;
     background: #0d1117;
 }
 
@@ -460,9 +442,10 @@ h2 {
 }
 
 .trial {
-    padding: 100px 0;
+    padding: 50px 0 0 0;
     text-align: center;
-    background: #0a0e17;
+    background: #0d1117;
+    margin: 0 0 50px 0;
 }
 
 .trial-card {
@@ -596,7 +579,7 @@ h2 {
 }
 
 footer {
-    padding: 60px 0 40px;
+    padding: 50px 0 40px;
     background: #0a0e17;
     border-top: 1px solid rgba(255, 255, 255, 0.05);
     text-align: center;
